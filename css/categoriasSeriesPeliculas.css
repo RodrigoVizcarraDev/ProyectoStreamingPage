@@ -1,0 +1,304 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+:root {
+  --primario_base: #1a242f;
+  --primario_light: #ffffff;
+  --primario_dark: #0f171e;
+  /*Colores para botones*/
+  --secundario_base: #1399de;
+  /*Botón estado hover*/
+  --secundario_light: #36b0ee;
+  /*Botón estado active*/
+  --secundario_dark: #0f79af;
+  /*Botón estado base*/
+  /*Colores para el fondo*/
+  --background_base: #0f171e;
+  --background_light: #252e39;
+  --background_dark: #0f171e;
+  /*Colores para el fondo de las cards, paginación, etc.*/
+  --superficie_base: #252e39;
+  --superficie_light: #787878;
+  --superficie_dark: #18222c;
+  /*Colores para ventanas, botones,etc. de errores*/
+  --error_base: #b02130;
+  --error_light: #e85759;
+  --error_dark: #790009;
+  /*Colores para ventanas, botones,etc. de alertas*/
+  --alerta_base: #fcebad;
+  --alerta_light: #ffffdf;
+  --alerta_dark: #655622;
+  /*Colores para ventanas de funcionalidades nuevas*/
+  --nuevo_base: #00464f;
+  --nuevo_light: #d7ebeb;
+  --nuevo_dark: #001f27;
+
+  --btn_light_default: rgba(255, 255, 255, 0.5);
+  --btn_light_hover: rgba(255, 255, 255, 0.3);
+  --btn_light_active: rgba(255, 255, 255, 0.7);
+}
+
+@font-face {
+  font-family: "Amazon";
+  src: url("../fonts/Amazon Ember/AmazonEmber_Rg.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background-color: var(--background_base);
+  font-family: "Amazon Ember", sans-serif;
+}
+
+.card {
+  background: var(--primario_base);
+  border: none;
+  transition: .2s;
+}
+
+.card:hover {
+  /* border: 1px solid var(--secundario_dark); */
+  z-index: 1;
+  transform: scale(1.02);
+}
+
+.card-img-top img {
+  object-fit: cover;
+}
+
+.btn-play {
+  color: var(--btn_light_default);
+}
+
+.btn-gradient {
+  margin-bottom: -0.25rem;
+  background: linear-gradient(to bottom, transparent, var(--primario_base) 80%);
+}
+
+.btn-play .bi {
+  text-shadow: 0 0 0.5rem var(--primario_dark);
+}
+
+.btn-play:hover {
+  color: var(--secundario_base);
+}
+
+.btn-play:active {
+  color: var(--secundario_light) !important;
+}
+
+.btn-plus {
+  background-color: transparent;
+  border: none;
+  color: var(--btn_light_default);
+}
+
+.btn-plus:hover {
+  color: var(--secundario_base);
+}
+
+.btn-plus:active {
+  color: var(--secundario_light) !important;
+}
+
+.pagination .page-link {
+  background: var(--superficie_dark);
+  border-color: var(--superficie_light);
+  color: var(--superficie_light);
+}
+
+.page-link:hover {
+  border-color: var(--secundario_base);
+  color: var(--secundario_base);
+}
+
+.page-link:active {
+  border-color: var(--secundario_light);
+  color: var(--secundario_light);
+}
+
+.active .page-link {
+  background: var(--secundario_dark);
+  border-color: var(--secundario_dark);
+  color: var(--primario_light);
+}
+
+.disabled .page-link {
+  background: var(--superficie_base);
+  border-color: var(--superficie_base);
+  color: var(--superficie_light);
+}
+
+/*Página Detalle de Película*/
+.titulo-gradient {
+  background: linear-gradient(to top, var(--background_base) 90%, transparent);
+}
+
+.video-gradiente {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, var(--background_base) 5%, transparent 15%), 
+    linear-gradient(to left, var(--background_base) 5%, transparent 15%),
+    linear-gradient(to top, var(--background_base) 5%, transparent 15%), 
+    linear-gradient(to bottom, var(--background_base) 5%, transparent 15%);
+
+  z-index: 1;
+}
+
+.boton-overlap {
+  margin-top: -15vh;
+}
+
+.info-links {
+  text-decoration: none;
+  color: var(--secundario_dark);
+}
+
+.info-links:hover {
+  text-decoration: none;
+  color: var(--secundario_base);
+}
+
+.btn-primary {
+  background-color: var(--secundario_dark);
+}
+
+.btn-primary:hover {
+  background-color: var(--secundario_base) !important;
+}
+
+.btn-primary:active {
+  background-color: var(--secundario_light) !important;
+}
+
+.btn-play-round,
+.btn-plus-round,
+.btn-social-round {
+  background-color: transparent;
+  border: none;
+  color: var(--btn_light_default);
+}
+
+.list-item:hover .btn-play-round,
+.list-item:hover .btn-plus-round,
+.list-item:hover .btn-social-round,
+.list-item:hover .bi-share,
+.list-item:hover .bi-pencil,
+.list-item:hover .bi-question-circle {
+  color: var(--btn_light_hover);
+}
+
+.list-item:active .btn-play-round,
+.list-item:active .btn-plus-round,
+.list-item:active .btn-social-round,
+.list-item:active .bi-share,
+.list-item:active .bi-pencil,
+.list-item:active .bi-question-circle {
+  color: var(--btn_light_active);
+}
+
+.btn-play-round .bi,
+.btn-plus-round .bi,
+.btn-social-round .bi {
+  background-color: var(--superficie_base);
+  border-radius: 50%;
+  color: var(--btn_light_default);
+  font-size: 1.5rem;
+  width: 2.75rem;
+}
+
+.list-item:hover .btn-play-round .bi,
+.list-item:hover .btn-plus-round .bi,
+.list-item:hover .btn-social-round .bi {
+  background-color: var(--superficie_dark);
+  color: var(--btn_light_hover);
+}
+
+.list-item:active .btn-play-round .bi,
+.list-item:active .btn-plus-round .bi,
+.list-item:active .btn-social-round .bi {
+  background-color: var(--superficie_light);
+  color: var(--btn_light_active);
+}
+
+.list-item:hover .btn-secundario {
+  color: var(--btn_light_hover) !important;
+}
+
+.list-item:active .btn-secundario {
+  color: var(--btn_light_active) !important;
+}
+
+.nav-tabs {
+  border-bottom-color: var(--superficie_dark);
+}
+
+.nav-tabs .nav-link {
+  color: white!important;
+  border: 1px solid var(--superficie_dark) !important;
+}
+
+.nav-tabs .nav-link:hover {
+  color: white;
+  text-decoration: underline;
+  border: 1px solid var(--superficie_light) !important;
+}
+
+.nav-tabs .nav-link:active {
+  background-color: var(--superficie_base) !important;
+}
+
+.nav-tabs .nav-link.active {
+  color: white;
+  text-decoration: underline;
+  background-color: var(--superficie_dark);
+}
+
+.nav-pills .nav-link{
+  color: white;
+  border: 1px solid var(--superficie_base);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: var(--secundario_dark);
+}
+.carousel-item {
+  padding: 1.5rem 4rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+
+/*Media Queries*/
+/*Large*/
+@media screen and (min-width: 992px) {
+  .boton-overlap {
+    margin-top: -5rem;
+  }
+
+  .titulo-gradient {
+    background: linear-gradient(to right, var(--background_base) 60%, transparent);
+    text-shadow: 0 0 1rem var(--background_dark);
+  }
+
+  .contenedor-video {
+    margin-left: -25vw;
+  }
+
+  .video-gradiente {
+    width: 56vw;
+    background: none;
+    box-shadow: inset 0 0 3rem 4rem var(--background_base);
+  }
+
+  .carousel-item {
+    padding: 1.5rem 8rem;
+  }
+
+  .imagenEpisodio {
+    width: 400px;
+  }
+}

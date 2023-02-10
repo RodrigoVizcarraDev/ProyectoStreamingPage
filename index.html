@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="navbar, rolling video" />
+    <meta name="author" content="Rodrigo Vizcarra" />
+    <meta name="description" content="Inicio de la página Rolling Video" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/sectionPrincipal.css" />
+    <link rel="stylesheet" href="./css/footerStyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="shortcut icon" href="images/logo/icono/Logo_Color_Icono.svg" type="image/x-icon" />
+    <title>Rolling Stream Video</title>
+  </head>
+  <body>
+    <!-- Header desarrollado por Rodrigo Vizcarra -->
+    <header>
+      <nav class="navbar barraNavegacion navbar-dark navbar-expand-lg">
+        <div class="container-fluid navbarContainer">
+          <a class="navbar-brand text-light" href="./index.html">
+            <img class="Logo__Principal" src="./images/logo_black.svg" alt="" />
+          </a>
+          <button
+            class="px-2 py-1 navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse mt-1"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav d-md-flex me-auto">
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button
+                    class="p-0 py-2 ps-sm-2 ps-md-2 p-lg-2 btn text-light fs-5 dropdown-toggle border-0"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Categorías
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-dark border-0">
+                    <div class="px-md-3 py-md-2 dopdownMenu">
+                      <section class="mx-sm-0 mx-lg-2">
+                        <h2 class="p-2 titulosCategorias">
+                          Categorías principales
+                        </h2>
+                        <ul class="contenedorCategorias p-0">
+                          <li class="categoriasPrincipalesItems">
+                            <a
+                              class="dropdown-item dropdown-item-principales w-100 h-100"
+                              href="./pages/error404.html"
+                              >Rolling Originals</a
+                            >
+                          </li>
+                          <li class="categoriasPrincipalesItems">
+                            <a
+                              class="dropdown-item dropdown-item-principales w-100 h-100"
+                              href="./pages/error404.html"
+                              >Niños</a
+                            >
+                          </li>
+                          <li class="categoriasPrincipalesItems">
+                            <a
+                              class="dropdown-item dropdown-item-principales w-100 h-100"
+                              href="./pages/error404.html"
+                              >Películas añadidas recientemente</a
+                            >
+                          </li>
+                          <li class="categoriasPrincipalesItems">
+                            <a
+                              class="dropdown-item dropdown-item-principales w-100 h-100"
+                              href="./pages/error404.html"
+                              >Series añadidas recientemente</a
+                            >
+                          </li>
+                        </ul>
+                      </section>
+                      <section class="mx-sm-0 mx-lg-2">
+                        <h2 class="p-2 titulosCategorias">Géneros</h2>
+                        <div class="categoriasGeneros mx-sm-1 mx-lg-0 w-100">
+                          <ul class="ul_categoriasGeneros">
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/error404.html"
+                                >Acción y aventuras</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="pages/categorias_peliculas/categorias-comedia.html"
+                                >Comedia</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/error404.html"
+                                >Drama</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/error404.html"
+                                >Documental</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/error404.html"
+                                >Infantil y Familiar</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/error404.html"
+                                >Fantasía</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/error404.html"
+                                >Terror</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/error404.html"
+                                >Romance</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/categorias_series/categorias-series-cf.html"
+                                >Ciencia ficción</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/error404.html"
+                                >Suspenso</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/error404.html"
+                                >Anime</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/error404.html"
+                                >Deportes</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </section>
+                      <section class="mx-sm-0 mx-lg-2 w-25">
+                        <h3 class="p-2 titulosCategorias">Otras categorías</h3>
+                        <div class="mx-sm-1 mx-lg-4">
+                          <ul class="ulOtrasCategorias">
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/error404.html"
+                                >Títulos galardonados</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item"
+                                href="./pages/error404.html"
+                                >Solo por tiempo limitado en Rolling</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="ps-md-2 ps-sm-2 nav-link active fs-5 text-light"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="ps-md-2 ps-sm-2 nav-link fs-5 text-light"
+                  href="pages/error404.html"
+                  >Series</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="ps-md-2 ps-sm-2 nav-link fs-5 text-light"
+                  href="pages/error404.html"
+                  >Peliculas</a
+                >
+              </li>
+            </ul>
+            <div class="me-2 py-2 ps-md-2 ps-sm-2">
+              <a href="pages/login.html" class="btn loginButton"
+                >Iniciar sesión</a
+              >
+            </div>
+            <div class="me-2 py-2 ps-md-2 ps-sm-2">
+              <a href="./pages/Suscripcion.html" class="btn suscribeButton"
+                >Suscribete</a
+              >
+            </div>
+            <form
+              class="d-flex py-2 px-sm-2 px-md-2 px-lg-0 formularioBusqueda"
+              role="search"
+              method="get"
+              action="pages/error404.html"
+            >
+              <input
+                class="form-control me-2 inputBusqueda"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+                required
+                maxlength="255"
+              />
+              <button class="btn btn-outline-info" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Main desarrollado por Ana Santillan -->
+    <main class="colordeFondo">
+      <section>
+        <div class="paginaPrincipal text-center">
+          <video autoplay loop muted plays-inline class="videoPrincipal">
+            <source
+              src="./images/section__principal/Peliculas/JURASSIC WORLD 3 DOMINION Tráiler Español v3(2022).mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div>
+            <img
+              src="./images/section__principal/Logo_Color.png"
+              alt="Logo Rolling stream"
+              class="img-fluid posicionLogo ps-2"
+              width="40%"
+            />
+          </div>
+          <button
+            class="btn colorBotones btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#modalPelicula"
+          >
+            Ver más
+          </button>
+        </div>
+      </section>
+
+      <!-- Continuar viendo -->
+      <section>
+        <h4 class="text-light mt-4 ps-3">
+          Continuar viendo <i class="bi bi-caret-right"></i>
+        </h4>
+        <article class="contenedor">
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Continuar/El_mentalista_T4_E1.jfif"
+                alt="El mentalista"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Continuar/Rapidos _y_furiosos_9.jfif"
+                alt="Rapidos y furiosos 9"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Continuar/Teoria_big_bang_T7_E22.jfif"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Continuar/The_office_T1_E3.jfif"
+                alt="The office"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Continuar/El_elegido.jfif"
+                alt="El elegido"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Continuar/SpiderMan.jfif"
+                alt="Spider-Man"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Continuar/Shazam.jfif"
+                alt="Shazam"
+              />
+            </a>
+          </div>
+        </article>
+      </section>
+      <!-- Continuar viendo -->
+
+      <!-- Recomendados -->
+      <section>
+        <h4 class="text-light mt-5 ps-3">
+          Recomendados
+          <a href="./pages/error404.html" class="text-decoration-none fs-6"
+            >Ver más</a
+          >
+        </h4>
+        <article class="contenedor">
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Sugeridos/Los_juegos_del_hambre.jfif"
+                alt="Los juegos del hambre"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Sugeridos/Gossip_girl.jfif"
+                alt="Gossip girl"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Sugeridos/La_teoria_del_big_bang.jfif"
+                alt="La teoria del big bang"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Sugeridos/Jurassic_World.jfif"
+                alt="Jurassic World"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Sugeridos/Constantine.jfif"
+                alt="Constantine"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Sugeridos/Friends.jfif"
+                alt="Friends"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="images/section__principal/Peliculas/Sugeridos/La_niñera.jfif"
+                alt="La niñera"
+              />
+            </a>
+          </div>
+        </article>
+      </section>
+      <!-- Recomendados -->
+
+      <!-- Comedia -->
+      <section>
+        <h4 class="text-light mt-5 ps-3">
+          Comedia <a href="./pages/categorias_peliculas/categorias-comedia.html" class="text-decoration-none fs-6">Ver más</a>
+        </h4>
+        <article class="contenedor">
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Comedia/Buenos_vecinos.jfif"
+                alt="Buenos vecinos"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Comedia/Alvin.jfif"
+                alt="Alvin y las ardillas"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Comedia/Al_diablo_con_el diablo.jfif"
+                alt="Al diablo con el diablo"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Comedia/American_pie.jfif"
+                alt="American pie"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="images/section__principal/Peliculas/Comedia/Amor_y_tesoro.jfif"
+                alt="Amor y tesoro"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Comedia/Dr_House.jfif"
+                alt="Dr House"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="images/section__principal/Peliculas/Comedia/Click.jfif"
+                alt="Click"
+              />
+            </a>
+          </div>
+        </article>
+      </section>
+      <!-- Comedia -->
+
+      <!-- Animados -->
+      <section>
+        <h4 class="text-light mt-5 ps-3">
+          Animados
+          <a href="./pages/error404.html" class="text-decoration-none fs-6"
+            >Ver más</a
+          >
+        </h4>
+        <article class="contenedor">
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Animados/Lluvia_de_hamburguesas.jfif"
+                alt="Lluvia de hamburguesas"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Animados/Bugs_Bunny.jfif"
+                alt="Bugs Bunny"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Animados/Lego.jfif"
+                alt="Lego"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Animados/Looney tunes.jfif"
+                alt="Looney tunes"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Animados/Madagascar.jfif"
+                alt="Madagascar"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Animados/Mi villano favorito.jfif"
+                alt="Mi villano favorito"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Animados/Supermascotas.jfif"
+                alt="Supermascotas"
+              />
+            </a>
+          </div>
+        </article>
+      </section>
+      <!-- Animados -->
+
+      <!-- Accion -->
+      <section>
+        <h4 class="text-light mt-5 ps-3">
+          Acción
+          <a href="./pages/error404.html" class="text-decoration-none fs-6"
+            >Ver más</a
+          >
+        </h4>
+        <article class="contenedor">
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Accion/Bad_boy.jfif"
+                alt="Bad boy"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Accion/Black_Adams.jfif"
+                alt="Black Adams"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Accion/Divergente.jfif"
+                alt="Divergente"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Accion/_8_minutos_antes_de_morir.jfif"
+                alt="8 minutos antes de morir"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Accion/Escuadron_suicida.jfif"
+                alt="Escuadron suicida"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Accion/Rampage.jfif"
+                alt="Rampage"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Accion/Celular.jfif"
+                alt="Celular"
+              />
+            </a>
+          </div>
+        </article>
+      </section>
+      <!-- Accion -->
+
+      <!-- Terror -->
+      <section>
+        <h4 class="text-light mt-5 ps-3">
+          Terror
+          <a href="./pages/error404.html" class="text-decoration-none fs-6"
+            >Ver más</a
+          >
+        </h4>
+        <article class="contenedor">
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Terror/Annabelle.jfif"
+                alt="Annabelle"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Terror/El_conjuro.jfif"
+                alt="El conjuro"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Terror/Chucky.jfif"
+                alt="Chucky"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Terror/Destino_final.jfif"
+                alt="Destino final"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Terror/Barco_fantasma.jfif"
+                alt="Barco fantasma"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Terror/Caceria.jfif"
+                alt="Caceria"
+              />
+            </a>
+          </div>
+          <div class="contenedor-imagen">
+            <a href="./pages/error404.html">
+              <img
+                class="imagen"
+                src="./images/section__principal/Peliculas/Terror/El_niño.jfif"
+                alt="El niño"
+              />
+            </a>
+          </div>
+        </article>
+      </section>
+      <!-- Terror -->
+
+      <section class="container mt-5">
+        <h5 class="text-light text-center">
+          Ve tus películas y series preferidas en Rolling Stream Videos
+        </h5>
+        <p class="text-light text-center">
+          Disfrutá de titulos exclusivos, además de películas y series populares
+          por ARS 319/mes más impuestos aplicables. Disfrutá ahora y cancela en
+          cualquier momento.
+        </p>
+        <div class="row py-5">
+          <aside class="col-sm-12 col-md-6 col-lg-6 mb-3">
+            <div class="card text-center">
+              <div class="card-body colorCard text-light">
+                <h5 class="card-title">Clientes</h5>
+                <p class="card-text">
+                  Eres cliente de Rolling Stream Videos? Inicia Sesión.
+                </p>
+                <a href="./pages/login.html" class="btn colorBotones"
+                  >Iniciar Sesión</a
+                >
+              </div>
+            </div>
+          </aside>
+          <aside class="col-sm-12 col-md-6 col-lg-6 mb-3">
+            <div class="card text-center">
+              <div class="card-body colorCard text-light">
+                <h5 class="card-title">Nuevos Clientes</h5>
+                <p class="card-text">Comienza tu periodo de prueba gratis.</p>
+                <a href="./pages/Suscripcion.html" class="btn colorBotones"
+                  >Suscribirse</a
+                >
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section>
+        <div
+          class="modal fade h-75"
+          id="modalPelicula"
+          tabindex="-1"
+          aria-labelledby="modalPeliculaLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title fs-5" id="modalPeliculaLabel">
+                  Jurassic World Dominion
+                </h2>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body text-center">
+                <a href="pages/error404.html">
+                  <img
+                    src="images/section__principal/Peliculas/Sugeridos/Jurassic_World_Dominion.jfif"
+                    alt="Jurassic World Dominion"
+                    class="w-100 mb-3"
+                  />
+                </a>
+                <p>
+                  Esta nueva entrega transcurre cuatro años después de la
+                  destrucción de Isla Nublar vista en Jurassic World: El reino
+                  caído. Ahora, los dinosaurios conviven con los seres humanos
+                  en todo el mundo. Este frágil equilibrio cambiará el futuro y
+                  decidirá, de una vez por todas, si las personas seguirán
+                  siendo los principales depredadores en un planeta que
+                  comparten con los animales más temibles de la creación.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer desarrollado por Julieta Correa -->
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <a href="#">
+            <img
+              class="logo"
+              src="./images/section__principal/Logo_Color.png"
+              alt="logo del sitio"
+            />
+          </a>
+        </div>
+
+        <div class="link-container">
+          <a class="link-secondary" href="pages/aboutUs.html"
+            >Acerca de Nosotros</a
+          >
+
+          <a class="link-secondary" href="pages/contacto.html">Contacto</a>
+        </div>
+
+        <div class="red-social">
+          <a href="../pages/error404.html">
+            <i class="bi bi-facebook text-secondary fs-5"></i>
+          </a>
+          <a href="../pages/error404.html">
+            <i class="bi bi-instagram text-secondary fs-5"></i>
+          </a>
+          <a href="../pages/error404.html">
+            <i class="bi bi-twitter text-secondary fs-5"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="grupo-2">
+        <small
+          >&copy;2023 <b>RollingStreamVideo</b>-Todos los Derechos
+          Reservados</small
+        >
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

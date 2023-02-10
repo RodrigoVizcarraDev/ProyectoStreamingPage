@@ -1,0 +1,91 @@
+
+.pie-pagina {
+    width: 100%;
+    background-color: #1a242f;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 30px;
+}
+
+.pie-pagina .grupo-1 .box {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.logo {
+    width: 100%;
+}
+
+.red-social {
+    display: flex;
+    gap: 20px;
+    color: #FFFFFF;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: #05A0D1;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+
+}
+
+.pie-pagina .grupo-2 {
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.mail-contacto {
+    color: antiquewhite;
+}
+
+.body_contacto {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+}
+.main_contacto {
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 45px;
+        padding: 100px 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .pie-pagina .grupo-1 {
+        width: 90%;
+
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 45px;
+        padding: 100px 0px;
+    }
+
+}

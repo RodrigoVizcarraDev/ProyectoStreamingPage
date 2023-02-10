@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "AmazonEmber";
+    src: url("../Font/AmazonEmber_Rg.ttf");
+}
+:root {
+    --primario_base: #1a242f;
+    --primario_light: #ffffff;
+    --primario_dark: #0f171e;
+  /*Colores para botones*/
+    --secundario_base: #1399de; /*Botón estado hover*/
+    --secundario_light: #36b0ee; /*Botón estado active*/
+    --secundario_dark: #0f79af; /*Botón estado base*/
+  /*Colores para el fondo*/
+    --background_base: #0f171e;
+    --background_light: #252e39;
+    --background_dark: #0f171e;
+  /*Colores para el fondo de las cards, paginación, etc.*/
+    --superficie_base: #252E39 ;
+    --superficie_light:#787878 ;
+    --superficie_dark: #18222C;
+  /*Colores para ventanas, botones,etc. de errores*/
+    --error_base: #B02130; 
+    --error_light: #E85759;
+    --error_dark: #790009;
+  /*Colores para ventanas, botones,etc. de alertas*/
+    --alerta_base: #FCEBAD;
+    --alerta_light: #FFFFDF;
+    --alerta_dark: #655622;
+  /*Colores para ventanas de funcionalidades nuevas*/
+    --nuevo_base: #00464F;
+    --nuevo_light: #D7EBEB;
+    --nuevo_dark: #001F27;
+  
+    --btn_light_default: rgba(255, 255, 255, 0.5);
+}
+.carousel-inner img{
+    max-height: 75vh;
+    object-fit: cover;
+}
+.colordeFondo{
+    background: rgb(35, 47, 62);
+}
+*::-webkit-scrollbar {
+    width: 6px;
+    height: 15px;
+}
+*::-webkit-scrollbar-track {
+    background-color: rgb(209, 209, 209);
+    margin: 0 550px;
+    border-radius: 10px;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(81, 94, 179, 0.693);
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+    
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 20px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.contenedor-imagen {
+    width: auto;
+    height: auto;
+    transition: transform .3s;
+}
+
+.imagen {
+    width: 300px;
+    height: 350px;
+    object-position: center;
+    transition: .3s;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+.posicionLogo{
+    position: absolute;
+    top: 65px;
+    left: 0px;
+}
+
+.colorCard{
+    background: rgb(35, 47, 62);
+    height: 170px;
+}
+
+.colorCardSub{
+    background: rgb(35, 47, 62);
+    
+}
+.colorBotones{
+    background-color: var(--secundario_base);
+    color: var(--primario_base);
+    font-size: medium;
+    font-weight: bold;
+}
+.colorBotones:hover {
+    background-color: var(--secundario_light);
+    color: var(--primario_light);
+}
+.posicionPlay{
+    position: relative;
+    top: 350px;
+    left: 5px;
+}
+
+@media all and (max-width:767px){
+    .imagen {
+        width: 200px;
+        height: 250px;
+        object-position: center;
+        transition: .3s;
+    }
+    
+}
+
+@media all and (min-width:768px) and (max-width:991px){
+    .imagen {
+        width: 250px;
+        height: 300px;
+        object-position: center;
+        transition: .3s;
+    }
+}

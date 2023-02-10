@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Detalle de Serie Upload - RollingStream Video" />
+  <meta name="keywords" content="pelicula, comedia , video, streaming, categoria, RollingStream," />
+  <meta name="author" content="Grupo 2" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../../css/footerStyles.css" />
+  <link rel="stylesheet" href="../../css/navbar.css" />
+  <link rel="stylesheet" href="../../css/categoriasSeriesPeliculas.css" />
+  <link rel="shortcut icon" href="../../images/logo/icono/Logo_Color_Icono.svg" type="image/x-icon" />
+  <title>Upload</title>
+</head>
+
+<body>
+  <!-- Navbar desarrollado por Rodrigo Vizcarra -->
+  <header>
+    <nav class="navbar barraNavegacion navbar-dark navbar-expand-lg">
+      <div class="container-fluid navbarContainer">
+        <a class=" navbar-brand text-light" href="../../index.html">
+          <img class="Logo__Principal" src="../../images/logo_black.svg" alt="">
+        </a>
+        <button class="px-2 py-1 navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-1" id="navbarSupportedContent">
+          <ul class="navbar-nav d-md-flex me-auto">
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="p-0 py-2 ps-sm-2 ps-md-2 p-lg-2 btn text-light fs-5 dropdown-toggle border-0"
+                  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorías
+                </button>
+                <div class="dropdown-menu dropdown-menu-dark border-0">
+                  <div class="px-md-3 py-md-2 dopdownMenu">
+                    <section class="mx-sm-0 mx-lg-2">
+                      <h2 class=" p-2 titulosCategorias">Categorías principales</h2>
+                      <ul class="contenedorCategorias p-0">
+                        <li class="categoriasPrincipalesItems ">
+                          <a class="dropdown-item dropdown-item-principales w-100 h-100" href="../error404.html">Rolling
+                            Originals</a>
+                        </li>
+                        <li class="categoriasPrincipalesItems">
+                          <a class="dropdown-item dropdown-item-principales w-100 h-100"
+                            href="../error404.html">Niños</a>
+                        </li>
+                        <li class="categoriasPrincipalesItems">
+                          <a class="dropdown-item dropdown-item-principales w-100 h-100"
+                            href="../error404.html">Películas añadidas recientemente</a>
+                        </li>
+                        <li class="categoriasPrincipalesItems">
+                          <a class="dropdown-item dropdown-item-principales w-100 h-100" href="../error404.html">Series añadidas recientemente</a>
+                        </li>
+                      </ul>
+                    </section>
+                    <section class="mx-sm-0 mx-lg-2 ">
+                      <h2 class=" p-2 titulosCategorias">Géneros</h2>
+                      <div class="categoriasGeneros mx-sm-1 mx-lg-0 w-100">
+                        <ul class="ul_categoriasGeneros">
+                          <li>
+                            <a class="dropdown-item" href="../error404.html">Acción y aventuras</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="../categorias_peliculas/categorias-comedia.html">Comedia</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="../error404.html">Drama</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="../error404.html">Documental</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="../error404.html">Infantil y Familiar</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="../error404.html">Fantasía</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="../error404.html">Terror</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="../error404.html">Romance</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="../categorias_series/categorias-series-cf.html">Ciencia ficción</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="../error404.html">Suspenso</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="../error404.html">Anime</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="../error404.html">Deportes</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </section>
+                    <section class="mx-sm-0 mx-lg-2 w-25">
+                      <h3 class=" p-2 titulosCategorias">Otras categorías</h3>
+                      <div class="mx-sm-1 mx-lg-4">
+                        <ul class="ulOtrasCategorias">
+                          <li>
+                            <a class="dropdown-item" href="../error404.html">Títulos galardonados</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item " href="../error404.html">Solo por tiempo limitado en Rolling</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="ps-md-2 ps-sm-2 nav-link active fs-5 text-light" aria-current="page"
+                href="../../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="ps-md-2 ps-sm-2 nav-link fs-5 text-light" href="../error404.html">Series</a>
+            </li>
+            <li class="nav-item">
+              <a class="ps-md-2 ps-sm-2 nav-link fs-5 text-light" href="../error404.html">Peliculas</a>
+            </li>
+          </ul>
+          <div class="me-2 py-2 ps-md-2 ps-sm-2">
+            <a href="../login.html" class="btn loginButton">Iniciar sesión</a>
+          </div>
+          <div class="me-2 py-2 ps-md-2 ps-sm-2">
+            <a href="../Suscripcion.html" class="btn suscribeButton">Suscribete</a>
+          </div>
+          <form class="d-flex py-2 px-sm-2 px-md-2 px-lg-0 formularioBusqueda" role="search" method="get"
+            action="../error404.html">
+            <input class="form-control me-2 inputBusqueda" type="search" placeholder="Buscar" aria-label="Search"
+              required maxlength="255">
+            <button class="btn btn-outline-info" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="container-fluid container-md">
+      <div class="row">
+        <div class="position-relative d-flex flex-column col-lg-4 order-lg-last">
+          <div class="contenedor-video">
+            <div class="video-gradiente"></div>
+            <video src="../../video/series/upload-trailer.mp4" autoplay muted loop class="img-fluid"
+              poster="../../images/peliculas__series/miniaturas/series/serie_upload.jpg"></video>
+          </div>
+        </div>
+        <div class="titulo-gradient col-lg-8 order-lg-first z-2">
+          <article class="text-light py-2">
+            <h1 class="display-1">Upload</h1>
+            <ul class="list-unstyled d-flex flex-wrap text-secondary gap-1 gap-md-2">
+              <li class="fw-bold">Temporada 2</li>
+              <li class="fw-bold">7,9<i class="bi bi-star-fill"></i></li>
+              <li class="fw-bold">2022</li>
+              <li class="border border-secondary rounded px-1">+16</li>
+              <li class="border border-secondary rounded px-1">4K</li>
+              <li class="border border-secondary rounded px-1">HD</li>
+            </ul>
+            </ul>
+            <p>En el futuro, la gente puede subir su conciencia a un lujoso más allá digital.
+              Cuando Nathan es subido a un resort virtual, conoce a Nora, quién comienza como su "ángel" de servicio al
+              cliente, pero se convierte en más, ya que lo ayuda a encontrar la amistad,
+              el amor y un propósito.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="row row-cols-1 row-cols-md-2 justify-content-between g-2">
+        <div class="col">
+          <a href="../Suscripcion.html" class="btn btn-primary w-100 border-0 btn-lg p-3">Regístrese en RollingStream
+            Video</a>
+        </div>
+        <div class="col">
+          <ul class="list-unstyled row row-cols-3 pt-2">
+            <li class="list-item col">
+              <a href="../error404.html" class="btn btn-play-round d-flex flex-column align-items-center gap-3"><i
+                  class="bi bi-play p-1"></i>Ver tráiler</a>
+            </li>
+            <li class="list-item col">
+              <a href="../error404.html" class="btn btn-plus-round d-flex flex-column align-items-center gap-3"><i
+                  class="bi bi-plus-lg p-1"></i>Añadir a "Mi Lista"</a>
+            </li>
+            <li class="list-item col">
+              <a href="../error404.html" class="btn btn-social-round d-flex flex-column align-items-center gap-3"><i
+                  class="bi bi-people p-1"></i>Ver en grupo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center justify-content-lg-start">
+        <ul class="list-unstyled row row-cols-3">
+          <li class="list-item col">
+            <a href="../error404.html"
+              class="btn border-0 btn-secundario text-light d-flex flex-column flex-md-row gap-1"><i
+                class="bi bi-share"></i>Compartir</a>
+          </li>
+          <li class="list-item col">
+            <a href="../error404.html"
+              class="btn border-0 btn-secundario text-light d-flex flex-column flex-md-row gap-1"><i
+                class="bi bi-pencil"></i>Comentario</a>
+          </li>
+          <li class="list-item col">
+            <a href="../error404.html"
+              class="btn border-0 btn-secundario text-light d-flex flex-column flex-md-row gap-1"><i
+                class="bi bi-question-circle"></i>Obtener ayuda</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container">
+      <ul class="nav nav-tabs justify-content-center" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="tabEpisodios" data-bs-toggle="tab" data-bs-target="#tabEpisodios-pane"
+            type="button" role="tab" aria-controls="tabEpisodios-pane" aria-selected="true">
+            Episodios
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tabRelacionados" data-bs-toggle="tab" data-bs-target="#tabRelacionados-pane"
+            type="button" role="tab" aria-controls="tabRelacionados-pane" aria-selected="true">
+            Relacionados
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tabDetalles" data-bs-toggle="tab" data-bs-target="#tabDetalles-pane"
+            type="button" role="tab" aria-controls="tabDetalles-pane" aria-selected="false">
+            Detalles
+          </button>
+        </li>
+      </ul>
+      <div class="container tab-content my-3" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="tabEpisodios-pane" role="tabpanel" aria-labelledby="tabEpisodios"
+          tabindex="0">
+          <ul class="nav nav-pills nav-justified py-3" id="pills-Temporadas-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-Temporada1-tab" data-bs-toggle="pill"
+                data-bs-target="#pill-Temporada1" type="button" role="tab" aria-controls="pills-Temporada1"
+                aria-selected="true">Temporada 1</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-Temporada2-tab" data-bs-toggle="pill" data-bs-target="#pill-Temporada2"
+                type="button" role="tab" aria-controls="pills-Temporada2" aria-selected="false">Temporada 2</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-TemporadaTab-content">
+            <div class="tab-pane fade show active" id="pill-Temporada1" role="tabpanel"
+              aria-labelledby="pills-Temporada1-tab" tabindex="0">
+              <h5 class="display-5 text-light">Episodios</h5>
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-1 g-4">
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e1-t1-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 1 - Bienvenidos a Upload">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">1. Bienvenidos a upload</h5>
+                            <p class="card-text">Después de un accidente automovilístico, Nathan es “subido” a Lakeview,
+                              el
+                              más
+                              allá digital de la familia de su novia, donde conoce a su representante de servicio al
+                              cliente,
+                              Nora.
+                            </p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">30 de abril de 2020</li>
+                              <li class="list-item fw-bold">47 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e2-t1-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 2 - Cinco estrellas">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">2. Cinco estrellas</h5>
+                            <p class="card-text">Nora intenta subir sus calificaciones para que su jefa apruebe el
+                              préstamo para hacer “upload” a su padre.
+                              Nathan se aclimata a su nuevo mundo con la ayuda de un terapeuta de Lakeview.
+                            </p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">30 de abril de 2020</li>
+                              <li class="list-item fw-bold">31 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e3-t1-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 3 - El funeral">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">3. El funeral</h5>
+                            <p class="card-text">Científicos intentan “descargar” una conciencia en un cuerpo clonado.
+                              Nathan asiste a su propio funeral y
+                              Nora descubre un misterio que rodea su muerte.
+                            </p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">30 de abril de 2020</li>
+                              <li class="list-item fw-bold">28 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e4-t1-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 4 - Traje sexual">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">4. Traje sexual</h5>
+                            <p class="card-text">Nora cree que puede haber juzgado mal a Nathan. Nathan y su novia
+                              Ingrid son entrevistados sobre
+                              los desafíos del romance entre una persona viva y un “upload”.</p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">30 de abril de 2020</li>
+                              <li class="list-item fw-bold">26 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e5-t1-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 5 - La zona gris">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">5. La zona gris</h5>
+                            <p class="card-text">El pulmón de vaporizador del padre de Nora empeora mientras Nathan, su
+                              amigo Luke y Dylan, un “upload”
+                              adolescente cuyo cuerpo no está acorde a su edad, visitan un mercado de hackers en el
+                              ciberespacio.
+                            </p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">30 de abril de 2020</li>
+                              <li class="list-item fw-bold">30 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e6-t1-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 6 - Pijamada">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">6. Pijamada</h5>
+                            <p class="card-text">Nathan se inquieta porque Nora sale en una cita. Ingrid invita a la
+                              sobrina de Nathan a una pijamada.
+                              Nathan y Nora sospechan que sus recuerdos dañados pueden revelar una conspiración mayor.
+                              Luke se pelea con Aleesha.</p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">30 de abril de 2020</li>
+                              <li class="list-item fw-bold">31 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e7-t1-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 7 - La visita de papá">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">7. La visita de papá</h5>
+                            <p class="card-text">Nathan lleva al padre de Nora a recorrer el mundo de los “uploads”,
+                              pero las cosas salen mal cuando los luditas sabotean Lakeview.
+                              Nora investiga un poco en la computadora de Lucy en medio de la confusión. </p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">30 de abril de 2020</li>
+                              <li class="list-item fw-bold">27 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e8-t1-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 8 - En busca de otros cielos">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">8. En busca de otros cielos</h5>
+                            <p class="card-text">Después de una sorprendente revelación, Nathan busca comprar una nueva
+                              vida digital.
+                              Nora viaja a Los Ángeles para ayudar a Ingrid a evitar que deje Lakeview.</p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">30 de abril de 2020</li>
+                              <li class="list-item fw-bold">33 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e9-t1-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 9 - Víspera de actualización">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">9. Víspera de actualización</h5>
+                            <p class="card-text">Los “uploads” esperan las mejoras en el nuevo sistema operativo de
+                              Lakeview.
+                              Nathan y Nora se quedan despiertos hasta tarde para recuperar los recuerdos perdidos de
+                              Nathan.</p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">30 de abril de 2020</li>
+                              <li class="list-item fw-bold">33 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e10-t1-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 10 - Freeyond">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">10. Freeyond</h5>
+                            <p class="card-text">Los recuerdos restaurados y emociones fluctuantes de Nathan ponen a
+                              Nora en peligro físico.</p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">30 de abril de 2020</li>
+                              <li class="list-item fw-bold">25 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pill-Temporada2" role="tabpanel" aria-labelledby="pills-Temporada2-tab"
+              tabindex="0">
+              <h5 class="display-5 text-light">Episodios</h5>
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-1 g-4">
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e1-t2-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 1 - Bienvenido, señor Brown">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">1. Bienvenido, señor Brown</h5>
+                            <p class="card-text">Mientras vive con Ingrid, Nathan busca a Nora, que se ha ido.</p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">10 de marzo de 2022</li>
+                              <li class="list-item fw-bold">32 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e2-t2-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 2 - La cena">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">2. La cena</h5>
+                            <p class="card-text">Nathan se aclimata a su nuevo mundo con la ayuda de un terapeuta de
+                              Lakeview.
+                              En una cena donde todos están obsesionados con el status, Nathan se enfrenta a los
+                              fantasmas de su pasado.
+                              Nora aprovecha sus habilitadades para programar cuando se inicia en el activismo.</p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">10 de marzo de 2022</li>
+                              <li class="list-item fw-bold">34 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e3-t2-upload.jpeg"
+                          class="img-fluid rounded" alt="Episodio 3 - Robin Hood ">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">3. Robin Hood</h5>
+                            <p class="card-text">Frustrados con las inequidades de Lakeview, Nathan y Luke deciden
+                              redistribuir la riqueza con la ayuda involuntaria de Ingrid.
+                              Nora inicia una misión secreta.</p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">10 de marzo de 2022</li>
+                              <li class="list-item fw-bold">33 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e4-t2-upload.jpg"
+                          class="img-fluid rounded" alt="Episodio 4 - Día de la familia">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">4. Día de la familia</h5>
+                            <p class="card-text">Las lealtades de Nora se vuelven problemáticas cuando le piden que
+                              actúe como revolucionaria.
+                              La familia de Nathan lo visita y le pide que considere qué quiere en su más allá. Luke
+                              inventa un nuevo deporte.</p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">10 de marzo de 2022</li>
+                              <li class="list-item fw-bold">31 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e5-t2-upload.jpg"
+                          class="img-fluid rounded" alt="Episodio 5 - Mind Frisk">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">5. Mind Frisk</h5>
+                            <p class="card-text">Nathan y Nora deben detener un avance tecnológico potencialmente
+                              peligroso. Luke boicotea su sueño cuando descubre que Horizen gana dinero con sus sueños,
+                              mientras Aleesha continúa ascendiendo en la jerarquía de Horizen. Ingris se tienta con una
+                              nueva oferta tecnológica: bebés digitales.</p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">10 de marzo de 2022</li>
+                              <li class="list-item fw-bold">33 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card h-100 text-light pe-3 pb-3 pb-lg-0">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e6-t2-upload.jpg"
+                          class="img-fluid rounded" alt="Episodio 6 - Pijamada">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">6. La salida</h5>
+                            <p class="card-text">Nora y Aleesha van tras el misterio en la ciudad de Nueva York mientras
+                              llevan a Nathan y Luke colgados en pantallas.
+                              Ingrid recibe visitas inesperadas.</p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">10 de marzo de 2022</li>
+                              <li class="list-item fw-bold">27 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-0">
+                  <div class="card text-light pe-lg-3">
+                    <div class="row h-100 align-items-lg-center">
+                      <div class="text-center col-lg-auto">
+                        <img src="../../images/peliculas__series/miniaturas/series/episodios-upload/e7-t2-upload.jpg"
+                          class="img-fluid rounded" alt="Episodio 7 - Download">
+                      </div>
+                      <div class="col-lg px-4">
+                        <div class="row">
+                          <div class="card-body col-lg-5">
+                            <h5 class="card-title fw-bold">7. Download</h5>
+                            <p class="card-text">Nora consigue el apoyo de aliados inesperados y viaja a Los Ángeles con
+                              el Hyperloop.
+                              Mientras tanto, los problemas de la vida personal de Nathan llegan a su punto crítico.</p>
+                          </div>
+                          <div class="col-lg-auto text-center d-flex justify-content-evenly d-lg-block">
+                            <ul class="list-unstyled border rounded border-secondary text-center text-secondary p-2">
+                              <li class="list-item fw-bold">10 de marzo de 2022</li>
+                              <li class="list-item fw-bold">39 min</li>
+                            </ul>
+                            <button type="button" class="btn btn-play border-0 btn-large"><i
+                                class="bi bi-play-circle fs-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="tabRelacionados-pane" role="tabpanel" aria-labelledby="tabRelacionados"
+          tabindex="0">
+          <h5 class="display-5 text-light">Otros clientes también han visto</h5>
+          <div id="IndicadoresCarousel" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#IndicadoresCarousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#IndicadoresCarousel" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#IndicadoresCarousel" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item pb-5 active">
+                <div class="row gap-2">
+                  <div class="card h-100 text-light shadow col-md px-0">
+                    <div class="card-img-top position-relative">
+                      <img src="../../images/peliculas__series/miniaturas/series/serie_cielo_nocturno.jpg"
+                        class="img-fluid border border-0 rounded-top-2" alt="Cielo Nocturno" />
+                      <div class="w-100 position-absolute bottom-0 start-0 btn-gradient d-flex justify-content-center">
+                        <a href="../error404.html" class="btn btn-play border-0 rounded-0">
+                          <i class="bi bi-play fs-2"></i>
+                        </a>
+                        <button class="btn btn-plus">
+                          <i class="bi bi-plus-lg fs-2"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-truncate">Cielo Nocturno</h5>
+                      <ul
+                        class="list-unstyled text-center d-flex flex-wrap justify-content-start text-secondary align-items-center gap-1 gap-md-2 mb-0">
+                        <li class="fw-bold">Temporada 1</li>
+                        <li class="fw-bold">7,4<i class="bi bi-star-fill"></i></li>
+                        <li class="fw-bold">2022</li>
+                        <li class="border border-secondary rounded px-1">+16</li>
+                        <li class="border border-secondary rounded px-1">HD</li>
+                        <li class="border border-secondary rounded px-1">4K</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card h-100 text-light shadow col-md px-0">
+                    <div class="card-img-top position-relative">
+                      <img src="../../images/peliculas__series/miniaturas/series/serie_the_expanse.jpg"
+                        class="img-fluid border border-0 rounded-top-2" alt="The Expanse" />
+                      <div class="w-100 position-absolute bottom-0 start-0 btn-gradient d-flex justify-content-center">
+                        <a href="../error404.html" class="btn btn-play border-0 rounded-0">
+                          <i class="bi bi-play fs-2"></i>
+                        </a>
+                        <button class="btn btn-plus">
+                          <i class="bi bi-plus-lg fs-2"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="px-2">
+                        <h5 class="card-title text-truncate">The Expanse</h5>
+                        <ul
+                          class="list-unstyled text-center d-flex flex-wrap justify-content-start text-secondary align-items-center gap-1 gap-md-2 mb-0">
+                          <li class="fw-bold">Temporada 6</li>
+                          <li class="fw-bold">6,5<i class="bi bi-star-fill"></i></li>
+                          <li class="fw-bold">2016</li>
+                          <li class="border border-secondary rounded px-1">13</li>
+                          <li class="border border-secondary rounded px-1">4K</li>
+                          <li class="border border-secondary rounded px-1">HD</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card h-100 text-light shadow col-md px-0">
+                    <div class="card-img-top position-relative">
+                      <img src="../../images/peliculas__series/miniaturas/series/serie_tierras_de_nadie.jpg"
+                        class="img-fluid border border-0 rounded-top-2" alt="Tierras de nadie" />
+                      <div class="w-100 position-absolute bottom-0 start-0 btn-gradient d-flex justify-content-center">
+                        <a href="../error404.html" class="btn btn-play border-0 rounded-0">
+                          <i class="bi bi-play fs-2"></i>
+                        </a>
+                        <button class="btn btn-plus">
+                          <i class="bi bi-plus-lg fs-2"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="px-2">
+                        <h5 class="card-title text-truncate">Tierras de nadie</h5>
+                        <ul
+                          class="list-unstyled text-center d-flex flex-wrap justify-content-start text-secondary align-items-center gap-1 gap-md-2 mb-0">
+                          <li class="fw-bold">Temporada 1</li>
+                          <li class="fw-bold">7,1<i class="bi bi-star-fill"></i></li>
+                          <li class="fw-bold">2022</li>
+                          <li class="border border-secondary rounded px-1">+18</li>
+                          <li class="border border-secondary rounded px-1">4K</li>
+                          <li class="border border-secondary rounded px-1">HD</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item pb-5">
+                <div class="row gap-2">
+                  <div class="card h-100 text-light shadow col-md px-0">
+                    <div class="card-img-top position-relative">
+                      <img src="../../images/peliculas__series/miniaturas/series/serie_upload.jpg"
+                        class="img-fluid border border-0 rounded-top-2" alt="Upload" />
+                      <div class="w-100 position-absolute bottom-0 start-0 btn-gradient d-flex justify-content-center">
+                        <a href="../error404.html" class="btn btn-play border-0 rounded-0">
+                          <i class="bi bi-play fs-2"></i>
+                        </a>
+                        <button class="btn btn-plus">
+                          <i class="bi bi-plus-lg fs-2"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="px-2">
+                        <h5 class="card-title text-truncate">Upload</h5>
+                        <ul
+                          class="list-unstyled text-center d-flex flex-wrap justify-content-start text-secondary align-items-center gap-1 gap-md-2 mb-0">
+                          <li class="fw-bold">Temporada 2</li>
+                          <li class="fw-bold">7,9<i class="bi bi-star-fill"></i></li>
+                          <li class="fw-bold">2022</li>
+                          <li class="border border-secondary rounded px-1">+16</li>
+                          <li class="border border-secondary rounded px-1">4K</li>
+                          <li class="border border-secondary rounded px-1">HD</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card h-100 text-light shadow col-md px-0">
+                    <div class="card-img-top position-relative">
+                      <img src="../../images/peliculas__series/miniaturas/series/serie_solos.jpg"
+                        class="img-fluid border border-0 rounded-top-2" alt="Solos" />
+                      <div class="w-100 position-absolute bottom-0 start-0 btn-gradient d-flex justify-content-center">
+                        <a href="../error404.html" class="btn btn-play border-0 rounded-0">
+                          <i class="bi bi-play fs-2"></i>
+                        </a>
+                        <button class="btn btn-plus">
+                          <i class="bi bi-plus-lg fs-2"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="px-2">
+                        <h5 class="card-title text-truncate">Solos</h5>
+                        <ul
+                          class="list-unstyled text-center d-flex flex-wrap justify-content-start text-secondary align-items-center gap-1 gap-md-2 mb-0">
+                          <li class="fw-bold">Temporada 1</li>
+                          <li class="fw-bold">6,0<i class="bi bi-star-fill"></i></li>
+                          <li class="fw-bold">2001</li>
+                          <li class="border border-secondary rounded px-1">+16</li>
+                          <li class="border border-secondary rounded px-1">4K</li>
+                          <li class="border border-secondary rounded px-1">HD</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card h-100 text-light shadow col-md px-0">
+                    <div class="card-img-top position-relative">
+                      <img src="../../images/peliculas__series/miniaturas/series/serie_paper_girls.jpg"
+                        class="img-fluid border border-0 rounded-top-2" alt="Paper Girls" />
+                      <div class="w-100 position-absolute bottom-0 start-0 btn-gradient d-flex justify-content-center">
+                        <a href="../error404.html" class="btn btn-play border-0 rounded-0">
+                          <i class="bi bi-play fs-2"></i>
+                        </a>
+                        <button class="btn btn-plus">
+                          <i class="bi bi-plus-lg fs-2"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="px-2">
+                        <h5 class="card-title text-truncate">Paper Girls</h5>
+                        <ul
+                          class="list-unstyled text-center d-flex flex-wrap justify-content-start text-secondary align-items-center gap-1 gap-md-2 mb-0">
+                          <li class="fw-bold">Temporada 1</li>
+                          <li class="fw-bold">7,3<i class="bi bi-star-fill"></i></li>
+                          <li class="fw-bold">2022</li>
+                          <li class="border border-secondary rounded px-1">+16</li>
+                          <li class="border border-secondary rounded px-1">4K</li>
+                          <li class="border border-secondary rounded px-1">HD</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item pb-5">
+                <div class="row gap-2">
+                  <div class="card h-100 text-light shadow col-md px-0">
+                    <div class="card-img-top position-relative">
+                      <img src="../../images/peliculas__series/miniaturas/series/serie_fear_the_walking_dead.jpg"
+                        class="img-fluid border border-0 rounded-top-2" alt="Fear the Walking Dead" />
+                      <div class="w-100 position-absolute bottom-0 start-0 btn-gradient d-flex justify-content-center">
+                        <a href="../error404.html" class="btn btn-play border-0 rounded-0">
+                          <i class="bi bi-play fs-2"></i>
+                        </a>
+                        <button class="btn btn-plus">
+                          <i class="bi bi-plus-lg fs-2"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="px-2">
+                        <h5 class="card-title text-truncate">Fear the Walking Dead</h5>
+                        <ul
+                          class="list-unstyled text-center d-flex flex-wrap justify-content-start text-secondary align-items-center gap-1 gap-md-2 mb-0">
+                          <li class="fw-bold">Temporada 7</li>
+                          <li class="fw-bold">6,8<i class="bi bi-star-fill"></i></li>
+                          <li class="fw-bold">2022</li>
+                          <li class="border border-secondary rounded px-1">+18</li>
+                          <li class="border border-secondary rounded px-1">HD</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card h-100 text-light shadow col-md px-0">
+                    <div class="card-img-top position-relative">
+                      <img src="../../images/peliculas__series/miniaturas/series/serie_star_trek_picard.jpg"
+                        class="img-fluid border border-0 rounded-top-2" alt="Star Trek: Picard" />
+                      <div class="w-100 position-absolute bottom-0 start-0 btn-gradient d-flex justify-content-center">
+                        <a href="../error404.html" class="btn btn-play border-0 rounded-0">
+                          <i class="bi bi-play fs-2"></i>
+                        </a>
+                        <button class="btn btn-plus">
+                          <i class="bi bi-plus-lg fs-2"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="px-2">
+                        <h5 class="card-title text-truncate">Star Trek: Picard</h5>
+                        <ul
+                          class="list-unstyled text-center d-flex flex-wrap justify-content-start text-secondary align-items-center gap-1 gap-md-2 mb-0">
+                          <li class="fw-bold">Temporada 2</li>
+                          <li class="fw-bold">7,3<i class="bi bi-star-fill"></i></li>
+                          <li class="fw-bold">2022</li>
+                          <li class="border border-secondary rounded px-1">+16</li>
+                          <li class="border border-secondary rounded px-1">HD</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card h-100 text-light shadow col-md px-0">
+                    <div class="card-img-top position-relative">
+                      <img src="../../images/peliculas__series/miniaturas/series/serie_la_dimension_desconocida.jpg"
+                        class="img-fluid border border-0 rounded-top-2" alt="La Dimensión Desconocida" />
+                      <div class="w-100 position-absolute bottom-0 start-0 btn-gradient d-flex justify-content-center">
+                        <a href="../error404.html" class="btn btn-play border-0 rounded-0">
+                          <i class="bi bi-play fs-2"></i>
+                        </a>
+                        <button class="btn btn-plus">
+                          <i class="bi bi-plus-lg fs-2"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="px-2">
+                        <h5 class="card-title text-truncate">La Dimensión Desconocida</h5>
+                        <ul
+                          class="list-unstyled text-center d-flex flex-wrap justify-content-start text-secondary align-items-center gap-1 gap-md-2 mb-0">
+                          <li class="fw-bold">Temporada 2</li>
+                          <li class="fw-bold">5,9<i class="bi bi-star-fill"></i></li>
+                          <li class="fw-bold">2020</li>
+                          <li class="border border-secondary rounded px-1">+18</li>
+                          <li class="border border-secondary rounded px-1">HD</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#IndicadoresCarousel"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#IndicadoresCarousel"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="tabDetalles-pane" role="tabpanel" aria-labelledby="tabDetalles" tabindex="0">
+          <section class="container info-pelicula">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+              <article class="col">
+                <h3 class="display-5 text-secondary">Reparto</h3>
+                <ul class="list-unstyled">
+                  <li class="list-item col">
+                    <a class="list-link info-links" href="../error404.html">Robbie Amell</a>
+                  </li>
+                  <li class="list-item col">
+                    <a class="list-link info-links" href="../error404.html">Andy Allo</a>
+                  </li>
+                  <li class="list-item col">
+                    <a class="list-link info-links" href="../error404.html">Allegra Edwards</a>
+                  </li>
+                </ul>
+              </article>
+              <article class="col">
+                <h3 class="display-5 text-secondary">Generos</h3>
+                <ul class="list-unstyled">
+                  <li class="list-item">
+                    <a class="info-links" href="../categorias_series/categorias-series-cf.html">Ciencia Ficción</a>
+                  </li>
+                  <li class="list-item">
+                    <a class="info-links" href="../categorias_peliculas/categorias-comedia.html">Comedia</a>
+                  </li>
+                </ul>
+              </article>
+              <article class="col">
+                <h3 class="display-5 text-secondary">Subtitulos</h3>
+                <p class="text-secondary">Español (España), Español (Latinoamérica), Inglés [CC], Português (Brasil),
+                  Português (Portugal)</p>
+              </article>
+              <article class="col">
+                <h3 class="display-5 text-secondary">Idioma</h3>
+                <p class="text-secondary">Español (España), Español (Latinoamérica), Inglés, Português</p>
+              </article>
+            </div>
+          </section>
+          <hr class="text-light">
+          <div class="table-responsive">
+            <table class="table table-borderless">
+              <tbody>
+                <tr>
+                  <td class="text-secondary fw-bold">Dirección</td>
+                  <td class="text-secondary">Greg Daniels, Kacie Anning, Jonathan van Tulleken, David Rogers, Jeffrey
+                    Blitz, Daina Reid</td>
+                </tr>
+                <tr>
+                  <td class="text-secondary fw-bold">Productores</td>
+                  <td class="text-secondary">Greg Daniels, Howard Klein, Shepard Boucher, Arielle Boisvert, Shawn
+                    Williamson, Mike Lawrence, Alex Sherman, Alyssa Lane, David Rogers, Brent Forrester, Mark Douglas,
+                    Jill Danton, Cristina Verano, Katie Strunk</td>
+                </tr>
+                <tr>
+                  <td class="text-secondary fw-bold">Red</td>
+                  <td class="text-secondary">Amazon Studios</td>
+                </tr>
+                <tr>
+                  <td class="text-secondary fw-bold">Calificación por edades de Amazon</td>
+                  <td class="text-secondary">18+(Adultos)</td>
+                </tr>
+                <tr>
+                  <td class="text-secondary fw-bold">Advertencias de contenido</td>
+                  <td class="text-secondary">Desnudez, violencia, consumo de alcohol, consumo de tabaco, lenguaje
+                    malsonante, contenido sexual</td>
+                </tr>
+                <tr>
+                  <td class="text-secondary fw-bold">Actores secundarios</td>
+                  <td class="text-secondary">Zainab Johnson, Kevin Bigley, Chloe Coleman</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer desarrollado por Julieta Correa -->
+  <footer class="pie-pagina mt-3">
+    <div class="grupo-1">
+      <div class="box">
+        <a href="../../index.html">
+          <img class="logo" src="../../images/logo/completo/Logo_Color.svg" alt="Logo del sitio" />
+        </a>
+      </div>
+
+      <div class="link-container">
+        <a class="link-secondary" href="../aboutUs.html">Acerca de Nosotros</a>
+
+        <a class="link-secondary" href="../contacto.html">Contacto</a>
+      </div>
+
+      <div class="red-social">
+        <a href="../error404.html">
+          <i class="bi bi-facebook  text-secondary fs-5"></i>
+        </a>
+        <a href="../error404.html">
+          <i class="bi bi-instagram  text-secondary fs-5"></i>
+        </a>
+        <a href="../error404.html">
+          <i class="bi bi-twitter  text-secondary fs-5"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="grupo-2">
+      <small>&copy;2023 <b>RollingStreamVideo</b>-Todos los Derechos
+        Reservados</small>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

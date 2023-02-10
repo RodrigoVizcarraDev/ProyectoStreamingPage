@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "Amazon";
+    src: url("../fonts/AmazonEmber_Rg.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+:root {
+    --primario_base: #1a242f;
+    --primario_light: #ffffff;
+    --primario_dark: #0f171e;
+  /*Colores para botones*/
+    --secundario_base: #1399de; /*Botón estado hover*/
+    --secundario_light: #36b0ee; /*Botón estado active*/
+    --secundario_dark: #0f79af; /*Botón estado base*/
+  /*Colores para el fondo*/
+    --background_base: #0f171e;
+    --background_light: #252e39;
+    --background_dark: #0f171e;
+  /*Colores para el fondo de las cards, paginación, etc.*/
+    --superficie_base: #252E39 ;
+    --superficie_light:#787878 ;
+    --superficie_dark: #18222C;
+  /*Colores para ventanas, botones,etc. de errores*/
+    --error_base: #B02130; 
+    --error_light: #E85759;
+    --error_dark: #790009;
+  /*Colores para ventanas, botones,etc. de alertas*/
+    --alerta_base: #FCEBAD;
+    --alerta_light: #FFFFDF;
+    --alerta_dark: #655622;
+  /*Colores para ventanas de funcionalidades nuevas*/
+    --nuevo_base: #00464F;
+    --nuevo_light: #D7EBEB;
+    --nuevo_dark: #001F27;
+  
+    --btn_light_default: rgba(255, 255, 255, 0.5);
+}
+
+body {
+    font-family: "Amazon Ember", sans-serif;
+}
+hr {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ****** Navbar styles ****** */
+.navbar {
+    background-color: var(--primario_base);
+    color: #FFFFFF;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.navbarContainer {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.Logo__Principal {
+    width: 130px;
+    filter:invert(1);
+}
+
+.navbar-toggler {
+    padding: 0;
+}
+.dropdown-menu {
+    background-color: var(--primario_base);
+    width: 90vw;
+    max-width: 1200px;
+    transform: translateX(0);
+}
+.contenedorCategorias, .ul_categoriasGeneros, .ulOtrasCategorias{
+    font-size: .80em;
+    width: max-content;
+}
+.dropdown-item {
+    white-space: break-spaces;
+}
+.loginButton, .suscribeButton {
+    background-color: var(--secundario_base);
+    color: var(--primario_base);
+    font-size: medium;
+    font-weight: bold;
+}
+.suscribeButton:hover, .loginButton:hover {
+    background-color: var(--secundario_light);
+}
+.inputBusqueda {
+    background-color: #122331;
+    border: .5px solid gray;
+}
+.inputBusqueda:focus {
+    background-color: #122331;
+    color: white;
+}
+.inputBusqueda::placeholder {
+    color: rgb(150, 150, 150);
+}
+main {
+    padding-top: 60px;
+}
+/* Media Queries */
+@media screen and (min-width:768px){
+    .dopdownMenu {
+        display: flex;
+    }
+    .titulosCategorias{
+        font-size: 1.1em;
+    }
+    .contenedorCategorias, .ul_categoriasGeneros, .ulOtrasCategorias{
+        width: auto;
+    }
+    .categoriasPrincipalesItems {
+        height: 70px;
+        border: .9px solid gray;
+        padding: 0;
+        background: conic-gradient(from 180deg at 50% 50%, #1399DE -66.66deg, #006BAC 34.58deg, #1399DE 118.96deg, #006BAC 207.08deg, #1399DE 293.34deg, #006BAC 394.58deg);    
+    }
+    .contenedorCategorias {
+        display: grid;
+        grid-template-columns: repeat(2,180px);
+        gap: .9em;
+    }
+    .categoriasPrincipalesItems {
+        height: 140px;
+        border-radius: 6px;
+    }
+    .dropdown-item-principales {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (min-width:991px) {
+    .navbar {
+        position: fixed;
+    }
+    main {
+        padding-top: 73.6px;
+    }
+    .dropdown-menu {
+        width: 90vw;
+        transform: translateX(-100px);
+    }
+    .titulosCategorias{
+        font-size: 1.5em;
+    }
+    .ul_categoriasGeneros { 
+        column-count: 2;
+    }
+
+    .contenedorCategorias {
+        grid-template-columns: repeat(2,210px);
+    }
+
+    .formularioBusqueda {
+        width: 25%;
+    }
+}
+/* ****** Navbar styles ****** */

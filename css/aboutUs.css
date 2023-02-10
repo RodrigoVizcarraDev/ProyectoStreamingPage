@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "AmazonEmber";
+    src: url(../fonts/AmazonEmber_Rg.ttf);
+}
+:root {
+    --primario_base: #1a242f;
+    --primario_light: #ffffff;
+    --primario_dark: #0f171e;
+  /*Colores para botones*/
+    --secundario_base: #1399de; /*Botón estado hover*/
+    --secundario_light: #36b0ee; /*Botón estado active*/
+    --secundario_dark: #0f79af; /*Botón estado base*/
+  /*Colores para el fondo*/
+    --background_base: #0f171e;
+    --background_light: #252e39;
+    --background_dark: #0f171e;
+  /*Colores para el fondo de las cards, paginación, etc.*/
+    --superficie_base: #252E39 ;
+    --superficie_light:#787878 ;
+    --superficie_dark: #18222C;
+  /*Colores para ventanas, botones,etc. de errores*/
+    --error_base: #B02130; 
+    --error_light: #E85759;
+    --error_dark: #790009;
+  /*Colores para ventanas, botones,etc. de alertas*/
+    --alerta_base: #FCEBAD;
+    --alerta_light: #FFFFDF;
+    --alerta_dark: #655622;
+  /*Colores para ventanas de funcionalidades nuevas*/
+    --nuevo_base: #00464F;
+    --nuevo_light: #D7EBEB;
+    --nuevo_dark: #001F27;
+  
+    --btn_light_default: rgba(255, 255, 255, 0.5);
+}
+.card-body {
+    background-color: var(--secundario_light);
+}
+.ilustracion_svg_aboutUs{
+  animation: svgAboutUsAnimation ease-in-out 1.4s infinite alternate;
+}
+@keyframes svgAboutUsAnimation {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.04);
+  }
+}
