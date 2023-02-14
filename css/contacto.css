@@ -1,0 +1,9 @@
+.main_contacto {
+    background-color: #252E39;
+}
+.formulario__contacto {
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.422);
+    border-radius: 10px;
+    color: white;
+}
